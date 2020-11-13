@@ -1,0 +1,63 @@
+$fontLight: Ubuntu-Light;
+$fontRegular: Ubuntu-Regular;
+$fontItalic: Ubuntu-Italic;
+$fontBold: Ubuntu-Bold;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $fontRegular;
+}
+
+p {
+  font-family: $fontLight;
+}
+
+// Colors
+.blue-text {
+  color: #02203c;
+}
+
+.white-text {
+  color: white;
+}
+
+.highlighted-text {
+  background-color: #ffff00;
+}
+
+// Font styles
+.italic {
+  font-family: $fontItalic;
+}
+
+// Text Sizes
+.small-text {
+  font-size: 13px;
+}
+
+// Styling div text components
+.landing-txt {
+  h1 {
+    font-size: 75px;
+  }
+  p {
+    font-size: 40px;
+  }
+}
+.carousel-caption {
+  h3,
+  p {
+    font-family: $fontBold;
+  }
+}
+.list-items {
+  padding: 80px 25px;
+  h4 {
+    font-size: 23px;
+  }
+  p {
+    font-size: 13px;
+  }
+}

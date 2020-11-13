@@ -1,0 +1,75 @@
+.global-nav {
+  background-color: #02203c;
+  font-family: Ubuntu-Regular;
+}
+
+.footer {
+  background-color: #02203c;
+  color: white;
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.bg-home {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.jumbo-style {
+  color: white;
+  background-color: #02203c;
+}
+
+#read-more {
+  display: none;
+}
+
+#open-read-more2 {
+  float: right;
+}
+
+#close-read-more {
+  display: none;
+}
+
+.section-underline {
+  width: 75%;
+  border: 1px solid #02203c;
+}
+
+.jumbo-underline {
+  width: 80%;
+  border: 2px solid white;
+}
+
+.border-button {
+  border: 1px solid #02203c;
+}
+
+.card-component {
+  max-height: 10rem;
+  overflow-y: scroll;
+}
+
+.list-items {
+  background-color: aliceblue;
+}
+
+// Shadows
+.box-shadow-card {
+  -moz-box-shadow: 0 0 15px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.box-shadow-list {
+  -moz-box-shadow: 0 0 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgb(0, 0, 0);
+  box-shadow: 0 0 1px rgb(0, 0, 0);
+}
+.images {
+  border: 2px solid #02203c;
+  max-width: 300px;
+}
