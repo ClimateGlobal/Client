@@ -13,6 +13,7 @@ const Navigation = () => {
           </Nav>
           <Nav>
             <Nav.Link href="/ClimateGlobal/#/contact">Contact</Nav.Link>
+            <Nav.Link href="/ClimateGlobal/#/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
