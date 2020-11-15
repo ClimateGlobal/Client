@@ -1,5 +1,6 @@
-import firebase from "firebase";
+import Firebase from "firebase";
 import "firebase/database";
+import "firebase/auth";
 var firebaseConfig = {
   apiKey: "AIzaSyD7qAtKnU8zhosjD01_iV9UDqHbdykr8J0",
   authDomain: "climateglobal.firebaseapp.com",
@@ -10,4 +11,4 @@ var firebaseConfig = {
   appId: "1:244283173632:web:fa22a4aa0fd285468ea1e5",
 };
 // Initialize Firebase
-export default firebase.initializeApp(firebaseConfig);
+export default Firebase.initializeApp(firebaseConfig);

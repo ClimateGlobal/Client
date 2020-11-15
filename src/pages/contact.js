@@ -26,6 +26,7 @@ const ContactApp = () => {
         email: email,
         reason: reason,
         message: message,
+        replied: false,
       })
       .then(() => {
         document.getElementById("name").value = "";

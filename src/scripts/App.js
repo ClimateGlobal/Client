@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importing bootstrap css
+import "react-table/react-table.css"; // React-Table css
 import { HashRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./scroll-to-top";
 import PrivateRoute from "./private-route";
@@ -12,6 +13,7 @@ import MapsApp from "../pages/maps-page";
 import ContactApp from "../pages/contact";
 import LoginApp from "../pages/login";
 import ProfileApp from "../pages/profile";
+import InboxApp from "../pages/inbox";
 import NotFound404App from "../pages/not-found-404-page";
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
           <Route path="/contact" exact component={ContactApp} />
           <Route path="/login" exact component={LoginApp} />
           <PrivateRoute path="/profile" exact component={ProfileApp} />
+          <PrivateRoute path="/profile/inbox" exact component={InboxApp} />
           <Route component={NotFound404App} />
         </Switch>
       </HashRouter>

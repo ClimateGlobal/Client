@@ -21,20 +21,15 @@ const Footer = () => {
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <Button
-              onClick={() => {
-                alert("Coming Soon!");
-              }}
-              variant="dark"
-            >
-              Donate
+            <Button href="/ClimateGlobal/#/maps" variant="dark">
+              Maps
             </Button>
           </h6>
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <Button href="/ClimateGlobal/#/maps" variant="dark">
-              Maps
+            <Button href="/ClimateGlobal/#/contact" variant="dark">
+              Contact
             </Button>
           </h6>
         </div>
